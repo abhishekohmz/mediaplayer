@@ -1,0 +1,47 @@
+
+.watchhistory{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.table{
+   width: 100%;
+}
+
+.table tr th,
+.table tr td{
+    color: white;
+}
+
+@media screen and (max-width:576px) {
+    .watchhistory h3{
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    .watchhistory a{
+        font-size: 12px;
+    }
+    .table tr th{
+        color: white;
+        border-left: 1px solid white;
+        font-size: 10px;
+        padding: 2px;
+        text-align: center;
+    }
+    .table tr td{
+        color: white;
+        text-align: center;
+        font-size: 8px;
+        padding: 2px;
+    }
+    
+    .table tr td .btn{
+        font-size: 10px;
+        padding: 2px;
+        border: none;
+    }
+    
+}
+

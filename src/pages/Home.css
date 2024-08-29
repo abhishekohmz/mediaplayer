@@ -1,0 +1,29 @@
+.home{
+    width: 100%;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.add-videos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:  1px solid white;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+@media screen {
+    .home{
+        padding-top: 20px;
+   padding-bottom: 20px;
+    }
+    .home a{
+        font-size: 13px;
+    }
+    .all_videos h3{
+        font-size: 18px;
+    }
+
+    
+}

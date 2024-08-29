@@ -1,0 +1,38 @@
+.videocard{
+    display:flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.videocard .border-box{
+    margin: 2px;
+}
+.videocard .card{
+    width: 100%;
+    height: fit-content;
+}
+
+.videocard .card img{
+width: 100%;
+height: 100px;
+}
+
+.videocard .card-title{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width:576px) {
+    .videocard .card-title{
+        font-size: 10px;
+    }
+    .videocard .card-title .btn{
+        font-size: 13px;
+        padding: 0px;
+        border: none;
+    }
+    
+}

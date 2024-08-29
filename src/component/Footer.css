@@ -1,0 +1,19 @@
+.footer section{
+    margin-bottom: 22px;
+}
+@media screen and (max-width:576px) {
+    .footer .btn{
+        font-size: 10px;
+        border: none;
+    }
+    .footer section{
+        margin-bottom: 0px;
+    }
+    .footer p{
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .footer a{
+        font-size: 10px;
+    }
+}

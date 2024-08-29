@@ -1,0 +1,14 @@
+.view .row .col-lg-3,
+.view .row .col-sm-3{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media screen and (max-width:576px) {
+    .view .row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 5px;
+        margin: 10px;
+    }
+}
